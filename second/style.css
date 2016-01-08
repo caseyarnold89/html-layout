@@ -12,23 +12,28 @@ div {
 
 .left {
     background-color: royalblue;
-    float:left;
-}
-
-.right {
-    background-color: lightgreen;
-    margin-left: 66%;
-    height: 80%;
-    clear: left;
+    float: left;
 }
 
 .middle {
     background-color: mediumspringgreen;
-    margin-left: 33%;
+    float: left;
 }
 
-footer {
+.right {
+    background-color: palegreen;
+    height: 65%;
+    float: left;
+}
+
+.foot {
     background-color: red;
-    height: 20%;
-    margin-left: 66%;
+    height: 19.5%;
+    float:left;
+    text-align: center;
+    padding-top: 110px;
+    color: white;
+    font-size: 18pt;
+    font-family: sans-serif;
+    width: 33%;
 }
