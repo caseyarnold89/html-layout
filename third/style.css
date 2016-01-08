@@ -2,11 +2,17 @@ html, body {
     width: 100%;
     height: 100%;
     padding: 0;
+    margin: 0;
+}
+
+div{
+    width: 100%;
+    height: 100px;
 }
 
 header {
-    width: 100%;
-    height: 100px;
+    height: 50px;
+    padding: 25px;
     background-color: darkgrey;
 }
 
@@ -14,6 +20,36 @@ header {
     background-color: royalblue;
     width: 50px;
     height: 50px;
-    margin: 25px;
 }
 
+.white {
+    height: 100px;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+p {
+    width: 75%;
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+.blue {
+    background-color: royalblue;
+    float: bottom;
+}
+
+.teal {
+    background-color: mediumspringgreen;
+    float: bottom;
+}
+
+.green {
+    background-color: lightgreen;
+    float: bottom;
+}
+
+.yellow {
+    background-color: yellow;
+    float:bottom;
+}
