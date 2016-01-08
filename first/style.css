@@ -1,11 +1,11 @@
 header {
     height: 250px;
     width: 100%;
-    background-color: black;
+    background-color: dimgrey;
 }
 
 div {
-    height: 700px;
+    height: 600px;
     width: 15%;
     background-color: darkgrey;
 }
@@ -13,8 +13,8 @@ div {
 footer {
     height: 125px;
     width:70%;
-    float: bottom;
     background-color: black;
+    margin-left:15%;
 }
 
 .leftside {
@@ -23,4 +23,10 @@ footer {
 
 .rightside {
     float:right;
+}
+
+.middle {
+    background-color: white;
+    float: bottom;
+    height:475px;
 }
