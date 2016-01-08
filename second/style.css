@@ -6,7 +6,7 @@ html, body {
 }
 
 div {
-    width: 33%;
+    width: 33.33%;
     height: 100%;
 }
 
@@ -21,19 +21,22 @@ div {
 }
 
 .right {
+    position: relative;
     background-color: palegreen;
-    height: 65%;
+    height: 80%;
     float: left;
+    margin: 0px;
 }
 
 .foot {
+    position: fixed;
+    bottom: 0px;
     background-color: red;
-    height: 19.5%;
-    float:left;
-    text-align: center;
-    padding-top: 110px;
+    width: 100%;
+    height: 15%;
     color: white;
     font-size: 18pt;
     font-family: sans-serif;
-    width: 33%;
+    padding-left: 70px;
+    padding-top: 70px;
 }
