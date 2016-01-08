@@ -1,15 +1,26 @@
 header {
-    height: 100px;
+    height: 250px;
     width: 100%;
     background-color: black;
 }
 
 div {
-    width: 75%;
+    height: 700px;
+    width: 15%;
+    background-color: darkgrey;
 }
 
 footer {
-    height: 100px;
-    width:75%;
-    float: center;
+    height: 125px;
+    width:70%;
+    float: bottom;
+    background-color: black;
+}
+
+.leftside {
+    float:left;
+}
+
+.rightside {
+    float:right;
 }
